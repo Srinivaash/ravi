@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan department">
+  <test  name="Personal loan">
+    <classes>
+      <class name="com.vcentry.TestNG.Login"/>
+      <class name="com.vcentry.TestNG.Logout"/>
+    </classes>
+  </test> 
+  <test  name="busy loan">
+  <classes>
+      <class name="com.vcentry.TestNG.Login2"/></classes>
+       <methods> 
+       
+       <exclude name="invalid.*"/>
+       </methods>
+       
+        
+  
+  
+  </test>
+</suite> 
